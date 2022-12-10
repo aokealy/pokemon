@@ -192,6 +192,6 @@ def updateUser(request):
         form = UserForm(request.POST, instance=user)
         if form.is_valid():
             form.save()
-            redirect('user-profile', pk=user.id)
+            return redirect('user-profile', pk=user.id)
 
     return render(request, 'main/update-user.html', {'form': form})
