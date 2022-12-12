@@ -197,4 +197,5 @@ def updateUser(request):
 
 
 def topicsPage(request):
-    return render(request, 'main/topics.html', {})
+    topics = Topic.objects.filter()
+    return render(request, 'main/topics.html', {'topics': topics})
