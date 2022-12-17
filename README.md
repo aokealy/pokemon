@@ -106,7 +106,7 @@ When validating my own code the W3C CSS Validator reports no errors.
 
 ### PEP Validation
 
-At the time of this project the website [pep8online](http://pep8online.com/) is currently offline. Usually I'm using that site to validate my Python code. Due to the site being offline I have followed Code Institutes workaround to add the PEP8 validator 'pycodestyle' to the Gitpod Workspace. I have tested the following Python files:
+At the time of this project the website [pep8online](http://pep8online.com/) is currently offline.
 
 - admin.py - No errors or warnings reported
 - forms.py - No errors or warnings reported
