@@ -64,7 +64,12 @@ The design of this website is simply to terms of accessing everything on one pag
 - ### Search Bar
   - a dynamic search bar where you can search even with just a letter to find any topic or post that was made on the website.
 - ### Topics
+
   - created a topics section on the website where users will see a list of topics that are being discussed and has a more feature at the end that will show more topics that are created.
+
+  ### Recent Activities
+
+  - recent activities shows the latest comments that were made in a certain topic by showing the time on it.
 
 ## Design Choices
 
