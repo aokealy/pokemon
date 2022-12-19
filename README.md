@@ -65,7 +65,33 @@ The design of this website is simply to terms of accessing everything on one pag
 
 - ### Colour Scheme
 
+  --color-main: #ee1515;
+  <br>
+  --color-main-light: #e1f6fb;
+  <br>
+  --color-dark: #3f4156;
+  <br>
+  --color-dark-medium: #51546e;
+  <br>
+  --color-dark-light: #696d97;
+  <br>
+  --color-light: #e5e5e5;
+  <br>
+  --color-gray: #8b8b8b;
+  <br>
+  --color-light-gray: #b2bdbd;
+  <br>
+  --color-bg: #2d2d39;
+  <br>
+  --color-success: #5dd693;
+  <br>
+  --color-error: #fc4b0b;
+  <br>
+
   # Future Features
+
+  - add images to messages so users can show off their pokemon cards when creating a new room.
+  - add the ability for users to add friends and have a friend list.
 
 # Testing
 
@@ -75,11 +101,12 @@ The code on the 'Pokemon Forum' site has been tested through W3C Markup Validati
 
 ### Markup Validation
 
-After fixing the inital errors that W3C Markup Validation Service reported, no errors were returned.
+There were errors but they were coming from django tags that were used in the html files which concluded no errors from.
 
 <details><summary><b>HTML Validation Result</b></summary>
 
-![HTML Result Home Page](readme/assets/images/html_validation_no_error.png)
+![HTML Result Home Page](static/readme-imgs/base_html.jpg)
+![HTML Result Home Page](static/readme-imgs/navbar_html.jpg)
 
 </details><br/>
 
@@ -114,11 +141,11 @@ At the time of this project the website [pep8online](http://pep8online.com/) is 
 
 The JSHint validator results can be seen below:
 
-No errors were returned when passing through JSHint (script.js) but the test reported one undefined variable connected to Bootstrap which is no problem.
+No errors were returned when passing through JSHint (script.js) but the test reported one error for JS extension for the const
 
 <details><summary><b>JSHint Validation Result</b></summary>
 
-![JSHint Validation](readme/assets/images/js_hint_validation.png)
+![JSHint Validation](static/readme-imgs/js_hint.jpg)
 
 </details><br/>
 
@@ -131,3 +158,7 @@ No errors were returned when passing through JSHint (script.js) but the test rep
 ![Lighthouse Result]<img src="static/readme-imgs/lighthouse.jpg">
 
 </details><br/>
+
+# credits
+
+- Youtube (https://www.youtube.com/watch?v=PtQiiknWUcI&t=1261s&ab_channel=TraversyMedia)
