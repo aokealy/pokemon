@@ -65,7 +65,7 @@ The design of this website is simply to terms of accessing everything on one pag
 
 - ### Colour Scheme
 
-  --color-main: #ee1515;
+  <!-- --color-main: #ee1515;
   <br>
   --color-main-light: #e1f6fb;
   <br>
@@ -86,7 +86,7 @@ The design of this website is simply to terms of accessing everything on one pag
   --color-success: #5dd693;
   <br>
   --color-error: #fc4b0b;
-  <br>
+  <br> -->
 
   # Future Features
 
@@ -141,7 +141,7 @@ At the time of this project the website [pep8online](http://pep8online.com/) is 
 
 The JSHint validator results can be seen below:
 
-No errors were returned when passing through JSHint (script.js) but the test reported one error for JS extension for the const
+No errors were returned when passing through JSHint (script.js) but the test reported one error for JS extension for the const.
 
 <details><summary><b>JSHint Validation Result</b></summary>
 
