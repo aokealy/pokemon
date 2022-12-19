@@ -34,7 +34,7 @@ SECRET_KEY = 'django-insecure-uoyl!d8(0w%2$+n51$u277hyg6+t+wjd!ck5iv+1_@zvs+kzyd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['pokemon-django.herokuapp']
+ALLOWED_HOSTS = ['young-taiga-94207.herokuapp.com']
 
 
 # Application definition
