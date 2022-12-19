@@ -7,28 +7,14 @@ This is my 4th Project that I have created.
 
 - [**Objective**](#objective)
 - [**User Experience UX**](#user-experience-ux)
+
   - [Design Prototype](#design-prototype)
   - [Site Structure](#site-structure)
   - [Design Choices](#design-choices)
   - [Typography](#typography)
   - [Colour Scheme](#colour-scheme)
-  - [Project Management](#project-management)
+
 - [**Features**](#features)
-  - [Startup Display](#startup-display)
-  - [Main Menu](#main-menu)
-  - [Quiz Hub Menu](#quiz-hub-menu)
-  - [Select Difficulty](#select-difficulty)
-  - [Quiz](#quiz)
-  - [Quiz Leaderboards](#quiz-leaderboards)
-  - [Quiz Statistics](#quiz-statistics)
-  - [Quiz Rules](#quiz-rules)
-  - [F1 Info Hub Menu](#f1-info-hub-menu)
-  - [View F1 Fact](#view-f1-fact)
-  - [Select A Track](#select-a-track)
-  - [F1 2022 Calendar](#f1-2022-calendar)
-  - [F1 2022 Drivers](#f1-2022-drivers)
-  - [Submit Feedback](#submit-feedback)
-  - [Exit App](#exit-app)
 - [**Future Features**](#future-features)
   - [Latest News](#latest-news)
   - [Polls](#polls)
@@ -83,7 +69,7 @@ The design of this website is simply to terms of accessing everything on one pag
 
 ## Code Validation
 
-The code on the 'Review | Alliance' site has been tested through W3C Markup Validation Service, W3C CSS Validation Service and JSHint. Errors were at first found on the site in the W3C Markup Validation Service but could quite easily be fixed (see bugs section). One error appeared as well in the W3C CSS Validation but that was connected to Font Awesome and not to the site code itself (see bugs section).
+The code on the 'Pokemon Forum' site has been tested through W3C Markup Validation Service, W3C CSS Validation Service and JSHint. Errors were at first found on the site in the W3C Markup Validation Service but could quite easily be fixed.
 
 ### Markup Validation
 
@@ -103,7 +89,7 @@ When validating my own code the W3C CSS Validator reports no errors.
 
 <details><summary><b>CSS Validation Result</b></summary>
 
-![CSS Result](readme/assets/images/css_validation_no_error.png)
+![CSS Result] <img src="static/readme-imgs/css-validator.jpg">
 
 </details><br/>
 
@@ -135,3 +121,11 @@ No errors were returned when passing through JSHint (script.js) but the test rep
 </details><br/>
 
 [Back to top](#table-of-content)
+
+### Lighthouse
+
+<details><summary><b>Lighthouse Result</b></summary>
+
+![Lighthouse Result]<img src="static/readme-imgs/lighthouse.jpg">
+
+</details><br/>
