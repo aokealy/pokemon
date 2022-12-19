@@ -14,6 +14,7 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 from pathlib import Path
 import os
 import django_heroku
+import dj_database_url
 # import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -87,11 +88,14 @@ WSGI_APPLICATION = 'pokemon.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    'default': dj_database_url.parse('postgres://DATABASE_URL')
 }
 
 
