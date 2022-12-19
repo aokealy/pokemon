@@ -8,7 +8,6 @@ This is my 4th Project that I have created.
 - [**Objective**](#objective)
 - [**User Experience UX**](#user-experience-ux)
 
-  - [Design Prototype](#design-prototype)
   - [Site Structure](#site-structure)
   - [Design Choices](#design-choices)
   - [Typography](#typography)
@@ -32,6 +31,9 @@ This is my 4th Project that I have created.
 # Objective
 
 The objective was to create a reddit style forum where user's can interact by commenting on posts and viewing other people's content and pages. This project was to show your ability to use Django with databases
+
+<hr>
+<img src="static/readme-imgs/home_page.jpg">
 
 # User Experience (UX)
 
@@ -65,7 +67,7 @@ The design of this website is simply to terms of accessing everything on one pag
 
 - ### Colour Scheme
 
-  <!-- --color-main: #ee1515;
+  --color-main: #ee1515;
   <br>
   --color-main-light: #e1f6fb;
   <br>
@@ -86,12 +88,37 @@ The design of this website is simply to terms of accessing everything on one pag
   --color-success: #5dd693;
   <br>
   --color-error: #fc4b0b;
-  <br> -->
+  <br>
 
   # Future Features
 
   - add images to messages so users can show off their pokemon cards when creating a new room.
   - add the ability for users to add friends and have a friend list.
+
+# Technologies Used
+
+## Languages
+
+- [Python](<https://en.wikipedia.org/wiki/Python_(programming_language)>) - Provides the functionality for the site.
+- [HTML5](https://en.wikipedia.org/wiki/HTML) - Provides the content and structure for the website.
+- [CSS3](https://en.wikipedia.org/wiki/CSS) - Provides the styling for the website.
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Provides interactive elements of the website
+
+## Frameworks & Software
+
+- [Bootstrap](https://getbootstrap.com/) - A CSS framework that helps building solid, responsive, mobile-first sites
+- [Django](https://www.djangoproject.com/) - A model-view-template framework used to create Pokemon Forum
+- [Github](https://github.com/) - Used to host and edit the website.
+- [GitBash](<https://en.wikipedia.org/wiki/Bash_(Unix_shell)>) - Terminal in [Gitpod](https://www.gitpod.io) used to push changes to the GitHub repository.
+- [Heroku](https://en.wikipedia.org/wiki/Heroku) - A cloud platform that the application is deployed to.
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - Used to test performance of site.
+- [Favicon](https://favicon.io/) - Used to create the favicon.
+- [VSCode](https://code.visualstudio.com/) - Used to create and edit the site.
+- [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) - Used to debug and test responsiveness.
+- [HTML Validation](https://validator.w3.org/) - Used to validate HTML code
+- [CSS Validation](https://jigsaw.w3.org/css-validator/) - Used to validate CSS code
+- [PEP8 Validation](http://pep8online.com/) - At the time for deploying this project the PEP8 Online Validaton service was offline so I could not work.
+- [JSHint Validation](https://jshint.com/) - Used to validate JavaScript code
 
 # Testing
 
