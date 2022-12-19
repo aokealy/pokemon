@@ -16,8 +16,8 @@ This is my 4th Project that I have created.
 
 - [**Features**](#features)
 - [**Future Features**](#future-features)
-  - [Latest News](#latest-news)
-  - [Polls](#polls)
+  - [Images](#images)
+  - [Add-Friends](#add-friends)
 - [**Technologies Used**](#technologies-used)
 - [**Python Packages**](#python-packages)
 - [**Testing**](#testing)
@@ -64,6 +64,8 @@ The design of this website is simply to terms of accessing everything on one pag
   DM Sans is a low-contrast geometric sans serif design, intended for use at smaller text sizes. DM Sans supports a Latin Extended glyph set, enabling typesetting for English and other Western European languages.
 
 - ### Colour Scheme
+
+  # Future Features
 
 # Testing
 
