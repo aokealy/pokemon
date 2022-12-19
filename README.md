@@ -18,15 +18,9 @@ This is my 4th Project that I have created.
   - [Images](#images)
   - [Add-Friends](#add-friends)
 - [**Technologies Used**](#technologies-used)
-- [**Python Packages**](#python-packages)
 - [**Testing**](#testing)
 - [**Deployment To Heroku**](#deployment-to-heroku)
-- [**Credits**](#credits)
-  - [**Content**](#content)
-  - [**Media**](#media)
-  - [**Code**](#code)
-- [**Acknowledgments**](#acknowledgements)
-- [**Personal Development**](#personal-development)
+- ## [**Credits**](#credits)
 
 # Objective
 
