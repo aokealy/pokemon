@@ -46,18 +46,36 @@ The design of this website is simply to terms of accessing everything on one pag
 ## Existing Features
 
 - ### Login Feature
+
   - This is a self made login
     feature that does not use Django own login feature.
   - You can add an email and password to it.
+  - The user can also log out
+  <hr>
+  <img src = "static/readme-imgs/login.jpg">
+
+- ### Update Profile
+  - update user profile by adding a picture to your profile after you sign up.
+  - add a bio
+  - be able to change your username
+  - be able to update email.
+  <hr>
+  <img src = "static/readme-imgs/edit-profile.jpg">
 - ### Search Bar
   - a dynamic search bar where you can search even with just a letter to find any topic or post that was made on the website.
+  <hr>
+  <img src = "static/readme-imgs/searchbar.jpg">
 - ### Topics
 
   - created a topics section on the website where users will see a list of topics that are being discussed and has a more feature at the end that will show more topics that are created.
+   <hr>
+  <img src = "static/readme-imgs/topics.jpg">
 
   ### Recent Activities
 
   - recent activities shows the latest comments that were made in a certain topic by showing the time on it.
+  <img src = "static/readme-imgs/recent.jpg">
+  <hr>
 
 ## Design Choices
 
