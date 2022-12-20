@@ -199,6 +199,8 @@ No errors were returned when passing through JSHint (script.js) but the test rep
 
 - numerous issues when trying to deploy the project but I had to delete the database and migrations and remigrate them which made the site work on heroku.
 
+- I have had many internet and computer issues over the last few weeks which was unfortunately hindered my work and is why I have a few bugs and features that I had to leave out when creating this project.
+
 # Deployment
 
 ## Deployment To Heroku
