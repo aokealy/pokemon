@@ -3,6 +3,7 @@
 This is a Pokemon Reddit style Forum for all the Pokemon fans out there that want to interact with others in this community and create discussions but also make new friends in the Pokemon World.
 This is my 4th Project that I have created.
 And the Github repository can be found [here](https://github.com/aokealy/pokemon).
+And the live link to website can be found [here](https://young-taiga-94207.herokuapp.com/).
 
 # Contents
 
