@@ -419,6 +419,7 @@ And the Github repository can be found [here](https://github.com/aokealy/pokemon
 I just want to say thank you to my mentor Precious.
 
 - Youtube (https://www.youtube.com/watch?v=PtQiiknWUcI&t=1261s&ab_channel=TraversyMedia)
+  This is the core of the project as I followed along and used some of my designs to make it my own.
 - Git Repository (https://github.com/divanov11/StudyBud/)
 - Poke Ball Icon (https://www.pngegg.com/en/png-wnotu)
 - Charizard Profile picture (https://www.forbes.com/sites/joeparlock/2021/03/29/pokmon-trading-card-game-shadowless-base-set-charizard-sells-for-over-300000/?sh=43d6f29f7e4d)
