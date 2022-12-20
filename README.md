@@ -21,6 +21,7 @@ And the live link to website can be found [here](https://young-taiga-94207.herok
   - [Add-Friends](#add-friends)
 - [**Technologies Used**](#technologies-used)
 - [**Testing**](#testing)
+- [**Bugs**](#bugs)
 - [**Deployment To Heroku**](#deployment-to-heroku)
 - ## [**Credits**](#credits)
 
@@ -191,6 +192,12 @@ No errors were returned when passing through JSHint (script.js) but the test rep
 ![Lighthouse Result]<img src="static/readme-imgs/lighthouse.jpg">
 
 </details><br/>
+
+# Bugs
+
+- I have had many bugs which include not being able to create a super user which was working fine before but I cannot create one currently for some reason which I cannot fix.
+
+- numerous issues when trying to deploy the project but I had to delete the database and migrations and remigrate them which made the site work on heroku.
 
 # Deployment
 
@@ -406,6 +413,8 @@ Now, add the link to the DATABASE_URL that we added to the environment file earl
 And the Github repository can be found [here](https://github.com/aokealy/pokemon).
 
 # credits
+
+I just want to say thank you to my mentor Precious.
 
 - Youtube (https://www.youtube.com/watch?v=PtQiiknWUcI&t=1261s&ab_channel=TraversyMedia)
 - Git Repository (https://github.com/divanov11/StudyBud/)
