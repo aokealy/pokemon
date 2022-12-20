@@ -29,12 +29,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-uoyl!d8(0w%2$+n51$u277hyg6+t+wjd!ck5iv+1_@zvs+kzyd'
+SECRET_KEY = os.environ.get(
+    'django-insecure-uoyl!d8(0w%2$+n51$u277hyg6+t+wjd!ck5iv+1_@zvs+kzyd')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['young-taiga-94207.herokuapp.com']
+ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
 
 
 # Application definition
@@ -99,7 +100,7 @@ WSGI_APPLICATION = 'pokemon.wsgi.application'
 #     }
 # }
 DATABASES = {
-    'default': dj_database_url.parse('postgres://DATABASE_URL')
+    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
 }
 
 
